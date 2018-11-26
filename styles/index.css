@@ -323,3 +323,16 @@ button {
 #hourly-weather-wrapper > div > div:last-child {
     color: #636E72;
 }
+
+/* ================================ Menu ================================ */
+
+#menu-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 100%;
+    z-index: 4;
+    color: white;
+    transition: right .5s;
+}
